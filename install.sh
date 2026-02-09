@@ -2,6 +2,7 @@
 
 # Create the config directory if it doesn't exist
 mkdir -p ~/.config
+mkdir -p ~/.config/shell_profiles/
 
 # Symlink Neovim
 # ln -s [TARGET] [LINK_NAME]
