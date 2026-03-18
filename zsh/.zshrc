@@ -123,3 +123,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 alias nz='NVIM_APPNAME="nvim-lazy" nvim'
+
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export PATH="$PATH:/home/yyy/.npm-global/bin/"
