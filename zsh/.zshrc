@@ -7,7 +7,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Tmux config file
 export XDG_CONFIG_HOME="$HOME/.config/"
 
-RPROMPT="%~"
+RPROMPT="%m:%~"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
