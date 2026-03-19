@@ -122,12 +122,11 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
 alias nz='NVIM_APPNAME="nvim-lazy" nvim'
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export PATH="$PATH:/home/yyy/.npm-global/bin/"
 
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init - zsh)"
+## pyenv
+#export PYENV_ROOT="$HOME/.pyenv"
+#[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init - zsh)"
