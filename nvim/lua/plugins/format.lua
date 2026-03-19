@@ -4,7 +4,7 @@ return {
 		formatters_by_ft = {
 			lua = { "stylua" },
 			-- Conform will run multiple formatters sequentially
-			python = { "isort" },
+			python = { "isort", "black", "autoflake" },
 		},
 	},
 	config = function(_, opts)
