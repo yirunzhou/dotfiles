@@ -138,6 +138,6 @@ export NVM_DIR="$HOME/.config//nvm"
 alias tv="nohup tradingview > /dev/null 2>&1 &"
 
 ## local secrets
-if [ -f "$HOME/.secrets" ]; receiver then
+if [ -f "$HOME/.secrets" ]; then
 	source "$HOME/.secrets"
-if 
+fi 
